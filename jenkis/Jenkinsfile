@@ -23,7 +23,7 @@ pipeline{
                 '''
             }
         }
-        stage('Build-Private-ip'){g
+        stage('Build-Private-ip'){
             steps{
                 sh '''
                 echo "Private IP details: " 
