@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Docker Page</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect on text */
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #ff7e5f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #feb47b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Colorful Docker Page!</h1>
+    <p>This page is being served from a Docker container with Nginx.</p>
+
+    <div class="box">
+        <p>This box has a subtle white background with some transparency.</p>
+    </div>
+
+    <button class="button" onclick="alert('Hello, Docker World!')">Click Me!</button>
+</body>
+</html>
+
